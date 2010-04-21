@@ -12,6 +12,30 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
+        <dependency name="ZenTest" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="autotest" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="autotest-growl" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="autotest-rails" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="hoe" version="2.6.0" bound="EQUAL" />
       </requirement>
       <source manual="true" />
@@ -103,6 +127,10 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] json_pure (v1.2.4, C:/Ruby19/lib/ruby/gems/1.9.1/gems/json_pure-1.2.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rubyforge (v2.0.4, C:/Ruby19/lib/ruby/gems/1.9.1/gems/rubyforge-2.0.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] test-unit (v1.2.3, C:/Ruby19/lib/ruby/gems/1.9.1/gems/test-unit-1.2.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest-rails (v4.1.0, C:/Ruby19/lib/ruby/gems/1.9.1/gems/autotest-rails-4.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ZenTest (v4.3.1, C:/Ruby19/lib/ruby/gems/1.9.1/gems/ZenTest-4.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest (v4.2.9, C:/Ruby19/lib/ruby/gems/1.9.1/gems/autotest-4.2.9)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest-growl (v0.2.3, C:/Ruby19/lib/ruby/gems/1.9.1/gems/autotest-growl-0.2.3)" level="application" />
   </component>
 </module>
 
