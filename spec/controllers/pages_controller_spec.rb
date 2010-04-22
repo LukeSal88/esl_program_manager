@@ -22,4 +22,11 @@ describe PagesController do
       response.should be_success
     end
   end
+
+   describe "GET 'quickstart'" do
+    it "should be successful" do
+      get 'quickstart'
+      response.should be_success
+    end
+  end
 end
